@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+h1, h3, p, label {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h1 {
+  margin-left: 13%;
+}
+
+h3, p, label {
+  margin: 0;
+}
+
+h3, p {
+  color: lightgray;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  background-color: green;
+}
+
+p {
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.left > p {
+  background-color: blue;
+}
+
+.right > p {
+  background-color: magenta;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+#bst {
+  width: 74%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.child {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+  overflow: hidden;
+}
+
+#control-panel {
+  position: fixed;
+  border: 1px solid black;
+  width: 10%;
+  right: 1rem;
+  top: 25vh;
+  background-color: white;
+}
+
+.control-item {
+  border-bottom: 1px solid black;
+  padding: 1.25rem;
+  padding-top: 1.125rem;
+}
+
+.control-item:last-child {
+  border: none;
+}
+
+input[type="text"],
+button {
+  width: 100%;
+}
+input[type=text] {
+  margin: 0.5rem 0;
+}

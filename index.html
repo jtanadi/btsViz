@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BST Viz</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>BST Visualizer</h1>
+      <div id="bst">
+      </div>
+
+      <div id="control-panel">
+        <form class="control-item">
+          <label for="node-input">Insert <span class="highlight">root</span> node</label>
+          <input type="text" name="node-input" value="" /> <br />
+          <button id="insert-node-btn">Insert</button>
+        </form>
+
+        <div class="control-item">
+          <button id="generate-btn">Generate</button>
+        </div>
+
+        <!-- <div class="control-item"> -->
+        <!--   <button id="traverse-btn">Traverse</button> -->
+        <!-- </div> -->
+
+        <div class="control-item">
+          <button id="clear">Clear</button>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
