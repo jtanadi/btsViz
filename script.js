@@ -35,8 +35,7 @@ class BinarySearchTree {
 const insertBtn = document.getElementById("insert-node-btn");
 const nodeInput = document.querySelector("input[type=text]");
 const generateBtn = document.getElementById("generate-btn");
-const traverseBtn = document.getElementById("traverse-btn");
-const clearBtn = document.getElementById("clear");
+const clearBtn = document.getElementById("clear-btn");
 
 const highlight = document.querySelector(".highlight");
 const bstDiv = document.getElementById("bst");
@@ -85,10 +84,6 @@ generateBtn.addEventListener("click", evt => {
     }
   }
   render();
-})
-
-traverseBtn.addEventListener("click", () => {
-  alert("Not yet implemented");
 })
 
 clearBtn.addEventListener("click", () => {
