@@ -83,7 +83,7 @@ generateBtn.addEventListener("click", evt => {
       bst.insert(val);
     }
   }
-  render();
+  render(500);
 })
 
 clearBtn.addEventListener("click", () => {
@@ -92,7 +92,8 @@ clearBtn.addEventListener("click", () => {
   highlight.innerHTML = "root";
 })
 
-function render() {
+function render(delay = 0) {
+  // delay to be implemented
   bstDiv.innerHTML = bst ? renderNodes(bst, root = true) : "";
 }
 
